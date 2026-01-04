@@ -235,6 +235,8 @@ body::before {
     transform: scale(1.2);
 }
 
+
+/* Gallery Section Styles */
 .gallery-filter-buttons {
     text-align: center;
     margin: 24px 0;
@@ -271,6 +273,7 @@ body::before {
 /* Content Container */
 .container.with-top-padding {
     padding-top: 100px;
+    min-height: calc(100vh - 180px);
 }
 
 .container {
